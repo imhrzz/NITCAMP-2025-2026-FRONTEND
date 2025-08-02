@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import axios from "axios";
 import PrivateRoute from "./components/PrivateRoute";
 
 // Components & Pages
@@ -20,7 +21,7 @@ import Adminlogin from "./components/adminlogin.jsx";
 import AdminPanel from "./components/adminpanel.jsx";
 import Profile from "./components/profile.jsx";
 import Mentorprofile from "./components/mentorprofile.jsx";
-import MenteeDashboard from "./components/menteedashboard.jsx";
+import MenteeDashboard from "./components/MenteeDashboard.jsx";
 import MentorDashboard from "./components/mentordashboard.jsx";
 import MentorWelcomePage from "./components/mentorwelcomepage.jsx";
 import MenteeWelcomePage from "./components/menteewelcomepage.jsx";
